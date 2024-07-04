@@ -1,0 +1,6 @@
+2024/07/04 17:06:34 [warn] 238#238: 512 worker_connections are not enough, reusing connections
+2024/07/04 17:06:34 [alert] 238#238: 512 worker_connections are not enough
+2024/07/04 17:06:34 [error] 238#238: *1054 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "projects.akashvarun.com", referrer: "http://projects.akashvarun.com/"
+2024/07/04 17:37:20 [warn] 544#544: 512 worker_connections are not enough, reusing connections
+2024/07/04 17:37:20 [alert] 544#544: 512 worker_connections are not enough
+2024/07/04 17:37:20 [error] 545#545: *4046 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "api.akashvarun.com", referrer: "http://api.akashvarun.com/"
